@@ -19,5 +19,5 @@ def multiply(m, n):
 M = int(input())
 N = int(input())
 
-result = MultiRec(M,N)
+result = multiply(M,N)
 print(result)

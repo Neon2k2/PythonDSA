@@ -1,6 +1,6 @@
 # converting string into integer:
 # base case: if len of string is 0 return 0
-#             if len of string is 1 return int(string)
+# if len of string is 1 return int(string)
 # assume for all l - 1 length it's true : convert(string[1:])
 # induction step: add a[0] times 10 raised to the power of l - 1 to the convert(a[1:])
 
